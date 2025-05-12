@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 0;
+}
+
+.inner-box{
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin: 1.5rem;
+}
+
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+
+.flash{
+    background-color: white;
+    transition: background-color 0.4s ease;
+}
+
+.userPressed{
+    background-color: brown;
+    transition: background-color 0.4s ease;
+}
